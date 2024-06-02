@@ -5,8 +5,8 @@ navbar:
     - text: ""
       icon: fa-home fa-lg
       href: index.html
-    - text: "Code"
-      href: code.html
+    - text: "About"
+      href: about.html
     # - text: "Lectures"
     #   href: lectures.html
     # - text: "Resources"
