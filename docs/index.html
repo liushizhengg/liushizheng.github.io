@@ -34,6 +34,23 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<script>
+$(document).ready(function(){
+  // Fade out body when leaving the page
+  $('a').click(function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('body').fadeOut(1000, function(){
+      window.location.href = href;
+    });
+  });
+
+  // Fade in body when page is loaded
+  $('body').hide().fadeIn(1000);
+});
+</script>
+
+
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -255,6 +272,9 @@ $(document).ready(function () {
 <li>
   <a href="about.html">About</a>
 </li>
+<li>
+  <a href="academia.html">Academia</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -274,26 +294,11 @@ $(document).ready(function () {
 
 <!-- Add JavaScript for page transition -->
 <!-- Add JavaScript for page transition -->
-<script>
-$(document).ready(function(){
-  // Fade out body when leaving the page
-  $('a').click(function(e){
-    e.preventDefault();
-    var href = $(this).attr('href');
-    $('body').fadeOut(1000, function(){
-      window.location.href = href;
-    });
-  });
-
-  // Fade in body when page is loaded
-  $('body').hide().fadeIn(1000);
-});
-</script>
 <p><br> <br> <br></p>
 <p>Placeholder text.</p>
 <p><br> <br> <br></p>
 <center>
-<em>This site was last updated at 16:11 on 02 Jun 2024</em>
+<em>This site was last updated at 17:06 on 02 Jun 2024</em>
 </center>
 
 

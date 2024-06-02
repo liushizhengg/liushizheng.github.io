@@ -8,6 +8,8 @@ output:
     toc_depth: 2
     theme: yeti
     css: styles.css  # Linking the CSS file
+    include:
+      in_header: page-transition.js
 ---
 
 
@@ -17,21 +19,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- Add JavaScript for page transition -->
 <!-- Add JavaScript for page transition -->
-<script>
-$(document).ready(function(){
-  // Fade out body when leaving the page
-  $('a').click(function(e){
-    e.preventDefault();
-    var href = $(this).attr('href');
-    $('body').fadeOut(1000, function(){
-      window.location.href = href;
-    });
-  });
-
-  // Fade in body when page is loaded
-  $('body').hide().fadeIn(1000);
-});
-</script>
 
 <br>
 <br>

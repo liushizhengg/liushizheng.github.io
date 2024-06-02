@@ -11,7 +11,7 @@
 
 
 
-<title>Lectures</title>
+<title>Academia</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -34,6 +34,23 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+<script>
+$(document).ready(function(){
+  // Fade out body when leaving the page
+  $('a').click(function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('body').fadeOut(1000, function(){
+      window.location.href = href;
+    });
+  });
+
+  // Fade in body when page is loaded
+  $('body').hide().fadeIn(1000);
+});
+</script>
+
+
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -60,6 +77,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -269,20 +287,46 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Lectures</strong></h1>
+<h1 class="title toc-ignore"><strong>Academia</strong></h1>
 
 </div>
 
 
 <p><br></p>
-<p>This is a template</p>
+<p>Here are my current publications. Multiple Q1 journal
+submissions.</p>
 <p><br></p>
-<div id="an-introduction-to-programming" class="section level1">
-<h1>An introduction to programming</h1>
-<ul>
-<li><a href="lecture_1.html">Presentation</a></li>
-</ul>
-</div>
+<p>Huang, X., Ma, T., Liu, C. and Liu, S., 2023. GriT-DBSCAN: A spatial
+clustering algorithm for very large databases. Pattern Recognition, 142,
+p.109658.</p>
+<p><br></p>
+<p>Ma, L., Liu, C., Ma, T. and Liu, S., 2023. PaVa: a novel Path-based
+Valley-seeking clustering algorithm. Information Sciences, Volume 665,
+120380.</p>
+<p><br></p>
+<p>Liu, Y., Wang, J., Yao, Z., Liu, C. and Liu, S., 2022. Diagnostic
+analytics for a GARCH model under skew-normal distributions.
+Communications in Statistics-Simulation and Computation, pp.1-25.</p>
+<p><br></p>
+<p>Liu, Y., Lin, Y., Song, X., Liu, C. and Liu, S., 2023. Nonnegative
+group bridge and application in financial index tracking. Statistical
+Papers, pp.1-21.</p>
+<p><br></p>
+<p>Liu, H., Ma, T., Liu, C. and Liu, S., 2023. Causal Responsibility
+Division of Chronological Continuous Treatment Based on Change-Point
+Detection. Entropy, 25(8), p.1164.</p>
+<p><br></p>
+<p>Liu, S., Wang, H., Liu, Y. and Liu, C., 2024. Matrix derivatives and
+Kronecker products for the core and generalized. Journal of Mathematical
+Analysis and Applications, p.128128.</p>
+<p><br></p>
+<p>Cao, L., Sun, R., Ma, T. and Liu, C., 2023. On Asymmetric
+Correlations and Their Applications in Financial Markets. Journal of
+Risk and Financial Management, 16(3), p.187.</p>
+<p><br> <br> <br></p>
+<center>
+<em>This site was last updated at 17:06 on 02 Jun 2024</em>
+</center>
 
 
 
