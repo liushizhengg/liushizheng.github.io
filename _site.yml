@@ -1,0 +1,19 @@
+name: "docs"
+navbar:
+  title: ""
+  left:
+    - text: ""
+      icon: fa-home fa-lg
+      href: index.html
+    - text: "Code"
+      href: code.html
+    # - text: "Lectures"
+    #   href: lectures.html
+    # - text: "Resources"
+    #   href: resources.html
+      
+output_dir: "docs"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate

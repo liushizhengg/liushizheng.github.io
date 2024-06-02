@@ -1,0 +1,69 @@
+---
+title: "**Some advanced EDA examples**"
+subtitle: "Extending what we have covered in class"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    theme: yeti
+---
+
+```{css, echo=FALSE}
+pre {
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+pre[class] {
+  max-height: 800px;
+}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+<br>
+
+
+# Example 1
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Example 3
+<br>
+
+* This slideshow contains visualisations created using two datasets. The first is the Melbourne housing market dataset. The second is [cash rate data from the RBA](https://www.rba.gov.au/statistics/cash-rate/). The rationale for using the cash rate data was to overlay the time series analysis of property sales. 
+
+* Some of the interactive plots were creating using tableau, but you can replicate them with the interactive plot techniques we have introduced.
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?utm_content=DAFxgC0YEks&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a> 
+
+
+
+
+
+
+
+</br>
+</br>
+</br>
+</br>
+]
+

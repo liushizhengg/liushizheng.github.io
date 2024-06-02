@@ -1,0 +1,20 @@
+---
+title: "**Lectures**"
+subtitle: ""
+output:
+  html_document:
+    toc: false
+    toc_float: false
+    toc_depth: 2
+    theme: yeti
+---
+
+<br>    
+
+This is a template 
+
+<br>
+
+# An introduction to programming
+* [Presentation](lecture_1.html)
+

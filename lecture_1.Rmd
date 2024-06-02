@@ -1,0 +1,23 @@
+---
+title: "Template lecture"
+subtitle: ""
+author: "Author name"
+date: "2024"
+output:
+  ioslides_presentation:
+    css: slides.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Test
+
+* Test
+
+## Test 2
+
+### Test title 
+
+* Dot point
