@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -359,6 +360,23 @@ pre[class] {
   max-height: 800px;
 }
 </style>
+<!-- Add JavaScript for page transition -->
+<!-- Add JavaScript for page transition -->
+<script>
+$(document).ready(function(){
+  // Fade out body when leaving the page
+  $('a').click(function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('body').fadeOut(1000, function(){
+      window.location.href = href;
+    });
+  });
+
+  // Fade in body when page is loaded
+  $('body').hide().fadeIn(1000);
+});
+</script>
 <p><br></p>
 <div id="example-1" class="section level1">
 <h1>Example 1</h1>

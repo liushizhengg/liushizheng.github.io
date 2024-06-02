@@ -1,0 +1,35 @@
+/* Custom styles for the website */
+
+/* Navigation bar */
+.navbar {
+    background-color: #282828; /* Light grey similar to Apple's website */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Helvetica Neue font */
+    font-weight: 300; /* Thin font weight */
+}
+
+/* Main content */
+body {
+    background-color: #fcfcfc; /* Same light grey as navigation bar */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Helvetica Neue font */
+    font-weight: 300; /* Thin font weight */
+}
+
+/* Apply Helvetica Neue font to specific elements */
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Change the color of individual navigation items when hovered over, focused, or active */
+.navbar-nav li a:hover,
+.navbar-nav li a:focus,
+.navbar-nav li a:active {
+    background-color: #dddddd; /* Light grey */
+    color: #333333; /* Dark grey text color */
+}
+
+/* Specific styles for active navigation items */
+.navbar-nav li.active a,
+.navbar-nav li.home-active a {
+    background-color: transparent; /* Ensure no background color */
+    color: #333333; /* Dark grey text color */
+}

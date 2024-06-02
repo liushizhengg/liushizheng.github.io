@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -271,11 +272,28 @@ $(document).ready(function () {
 </div>
 
 
+<!-- Add JavaScript for page transition -->
+<!-- Add JavaScript for page transition -->
+<script>
+$(document).ready(function(){
+  // Fade out body when leaving the page
+  $('a').click(function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('body').fadeOut(1000, function(){
+      window.location.href = href;
+    });
+  });
+
+  // Fade in body when page is loaded
+  $('body').hide().fadeIn(1000);
+});
+</script>
 <p><br> <br> <br></p>
 <p>Placeholder text.</p>
 <p><br> <br> <br></p>
 <center>
-<em>This site was last updated at 15:41 on 02 Jun 2024</em>
+<em>This site was last updated at 16:11 on 02 Jun 2024</em>
 </center>
 
 
