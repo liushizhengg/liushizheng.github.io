@@ -1,0 +1,52 @@
+---
+title: "**Musings**"
+subtitle: ""
+output:
+  html_document:
+    toc: false
+    toc_float: true
+    toc_depth: 2
+    theme: yeti
+    css: styles.css  # Linking the CSS file
+    include:
+      in_header: page-transition.js
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+<h2>Various musings.</h2>
+
+<br>
+
+- [One thought](post_1.html)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h6>
+<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
+</h6>

@@ -1,17 +1,16 @@
 name: "docs"
 navbar:
-  title: ""
+  title: "𓉞"
   left:
-    - text: ""
-      icon: fa-home fa-lg
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Gallery"
+      href: work.html
     - text: "Academia"
       href: academia.html
+    - text: "Musings"
+      href: musings.html
     # - text: "Resources"
     #   href: resources.html
-      
+
 output_dir: "docs"
 output:
   html_document:

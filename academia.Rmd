@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-Here are my current publications. Multiple Q1 journal submissions. 
+<h5>My research interests relate to statistics, machine learning and AI in the fields of actuarial science and finance. Alongside the published papers below (several Q1), I have worked as a research assistant at UNSW, looking at natural perils insurance and claims affordability.</h5> 
 
 <br>
 
@@ -53,5 +53,23 @@ Cao, L., Sun, R., Ma, T. and Liu, C., 2023. On Asymmetric Correlations and Their
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+<h6>
 <center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
+</h6>

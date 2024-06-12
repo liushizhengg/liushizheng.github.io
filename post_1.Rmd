@@ -1,0 +1,85 @@
+---
+title: ""
+subtitle: ""
+output:
+  html_document:
+    toc: false
+    toc_float: true
+    toc_depth: 2
+    theme: yeti
+    css: styles.css  # Linking the CSS file
+    include:
+      in_header: page-transition.js
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<div style="margin-top: 88px;">
+  <h1>One thought</h1>
+</div>
+
+<br>
+
+
+<hr style="border-top: 1px solid grey; margin-left: 20px; margin-right: 20px;" />
+
+<br>
+
+
+Loyalty and gratitude stand as paramount virtues essential for those aspiring to leadership roles. These traits, when cultivated earnestly, serve as foundational pillars in personal and professional realms alike.
+
+<br>
+
+Loyalty encompasses a commitment not merely to individuals, but to principles, organizational objectives, and ethical frameworks. While loyalty to a person may inadvertently breed bureaucracy and hinder collaborative endeavors, fidelity to principles fosters character development and integrity. Upholding a set of values rather than blind allegiance to individuals encourages constructive dissent and fortifies relationships based on mutual respect.
+
+<br>
+
+Gratitude emerges as equally—if not more—crucial in navigating interpersonal dynamics and personal growth. It serves as a linchpin in resolving myriad issues, underpinning the fabric of relationships and self-development.
+
+<br>
+
+The cultivation of these traits demands conscious effort, patience, and perpetual refinement. From a Chinese philosophical standpoint, specifically that of Confucianism, virtuous behavior stems from sincere intentions rooted in benevolence, righteousness, propriety, wisdom, and fidelity. In cultivating loyalty and gratitude, there is an innate importance of aligning one's intentions with these core virtues, as it is the sincerity and authenticity of our actions that ultimately define our moral character.
+
+<br>
+
+Various methodologies exist for honing these virtues. Personal practices, such as daily reflections on gratitude, foster an attitude of appreciation for life's blessings, no matter how modest. Similarly, acknowledging moments of faltering behavior and striving for improvement reinforces accountability and fosters personal growth.
+
+<br>
+
+In essence, the journey toward embodying loyalty and gratitude is ongoing and multifaceted. By prioritising these virtues, individuals not only enhance their leadership potential but also contribute to a culture of integrity and empathy in their spheres of influence.
+
+<br>
+
+<h3><strong>“It’s harder to be kind than to be clever. It’s the difference between gifts and choices. Cleverness is a gift. Kindness is a choice.” - Jeff Bezos</strong></h3>
+
+<br>
+
+<h3><strong>
+"To know even one life has breathed easier because you have lived, this is to have succeeded." – Ralph Waldo Emerson
+</h3></strong>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h6>
+<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
+</h6>

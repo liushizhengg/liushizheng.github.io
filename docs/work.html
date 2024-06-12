@@ -11,7 +11,7 @@
 
 
 
-<title>Academia</title>
+<title>Gallery</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -237,6 +240,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -244,6 +310,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -281,56 +357,118 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><strong>Academia</strong></h1>
+<h1 class="title toc-ignore"><strong>Gallery</strong></h1>
+<h3 class="subtitle">Some of my favourite projects &amp; pieces of
+work</h3>
 
 </div>
 
 
+<style type="text/css">
+pre {
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+pre[class] {
+  max-height: 800px;
+}
+</style>
+<!-- Add JavaScript for page transition -->
+<!-- Add JavaScript for page transition -->
 <p><br></p>
 <h5>
-My research interests relate to statistics, machine learning and AI in
-the fields of actuarial science and finance. Alongside the published
-papers below (several Q1), I have worked as a research assistant at
-UNSW, looking at natural perils insurance and claims affordability.
+These are related to different interests of mine. Peruse freely or use
+the table of contents to jump around.
+</h5>
+<p><br> <br> <br> <br> <br></p>
+<div id="data-science" class="section level1">
+<h1>Data Science</h1>
+<p><br></p>
+<h5>
+This section has a focus on data visualisation and modelling.
 </h5>
 <p><br></p>
-<p>Huang, X., Ma, T., Liu, C. and Liu, S., 2023. GriT-DBSCAN: A spatial
-clustering algorithm for very large databases. Pattern Recognition, 142,
-p.109658.</p>
+<p><a href="https://concptl.github.io/eda-examples/">Most notably, I
+created and help teach a data science course for Masters students. Here
+are some data science projects I have turned into course materials and
+practical examples.</a></p>
 <p><br></p>
-<p>Ma, L., Liu, C., Ma, T. and Liu, S., 2023. PaVa: a novel Path-based
-Valley-seeking clustering algorithm. Information Sciences, Volume 665,
-120380.</p>
+<p>This is a report I wrote on predicting house prices in Melbourne. See
+below for a summarised presentation!</p>
 <p><br></p>
-<p>Liu, Y., Wang, J., Yao, Z., Liu, C. and Liu, S., 2022. Diagnostic
-analytics for a GARCH model under skew-normal distributions.
-Communications in Statistics-Simulation and Computation, pp.1-25.</p>
+<div
+style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" target="_blank" rel="noopener"></a></p>
 <p><br></p>
-<p>Liu, Y., Lin, Y., Song, X., Liu, C. and Liu, S., 2023. Nonnegative
-group bridge and application in financial index tracking. Statistical
-Papers, pp.1-21.</p>
+<ul>
+<li><p>This slideshow contains visualisations created using two
+datasets. The first is a Melbourne housing market dataset from <a
+href="https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market">kaggle</a>.
+The second is <a
+href="https://www.rba.gov.au/statistics/cash-rate/">cash rate data from
+the RBA</a>. The rationale for using the cash rate data was to overlay
+the time series analysis of property sales.</p></li>
+<li><p>Some of the interactive plots were creating using
+Tableau.</p></li>
+</ul>
 <p><br></p>
-<p>Liu, H., Ma, T., Liu, C. and Liu, S., 2023. Causal Responsibility
-Division of Chronological Continuous Treatment Based on Change-Point
-Detection. Entropy, 25(8), p.1164.</p>
+<div
+style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?utm_content=DAFxgC0YEks&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a></p>
+<p><br> <br> <br></p>
+</div>
+<div id="literature" class="section level1">
+<h1>Literature</h1>
 <p><br></p>
-<p>Liu, S., Wang, H., Liu, Y. and Liu, C., 2024. Matrix derivatives and
-Kronecker products for the core and generalized. Journal of Mathematical
-Analysis and Applications, p.128128.</p>
+<h5>
+Mostly a collection of short stories I wrote for fun.
+</h5>
 <p><br></p>
-<p>Cao, L., Sun, R., Ma, T. and Liu, C., 2023. On Asymmetric
-Correlations and Their Applications in Financial Markets. Journal of
-Risk and Financial Management, 16(3), p.187.</p>
-<p><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br> <br> <br> <br> <br></p>
+<div
+style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" target="_blank" rel="noopener"></a></p>
+<p><br></p>
+<div
+style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" target="_blank" rel="noopener"></a></p>
+<p></br> </br> </br> </br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br></p>
 <h6>
 <center>
 <em>This site was last updated at 22:45 on 12 Jun 2024</em>
 </center>
 </h6>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -363,6 +501,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
