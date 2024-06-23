@@ -3,16 +3,22 @@ navbar:
   title: "𓉞"
   left:
     - text: "Gallery"
-      href: work.html
+      href: work_en.html  # Replace with work_zh.html for Chinese version
     - text: "Academia"
-      href: academia.html
+      href: academia_en.html  # Replace with academia_zh.html for Chinese version
     - text: "Musings"
-      href: musings.html
-    # - text: "Resources"
-    #   href: resources.html
-
+      href: musings_en.html  # Replace with musings_zh.html for Chinese version
+  right:
+    - text: "English"
+      href: "#"
+      id: "lang-en"
+    - text: "中文"
+      href: "#"
+      id: "lang-zh"
 output_dir: "docs"
 output:
   html_document:
     theme: cosmo
     highlight: textmate
+    css: styles.css
+favicon: images/favicon.ico

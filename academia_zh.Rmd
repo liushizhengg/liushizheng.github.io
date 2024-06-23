@@ -1,5 +1,5 @@
 ---
-title: "**Academia**"
+title: ""
 subtitle: ""
 output:
   html_document:
@@ -8,10 +8,9 @@ output:
     toc_depth: 2
     theme: yeti
     css: styles.css  # Linking the CSS file
-    include:
-      in_header: page-transition.js
+    includes:
+      in_header: scripts.js
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -19,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h5>My research interests relate to statistics, machine learning and AI in the fields of actuarial science and finance. Alongside the published papers below (several Q1), I have worked as a research assistant at UNSW, looking at natural perils insurance and claims affordability.</h5> 
+<h5>我的研究兴趣涉及统计学、机器学习和人工智能在精算科学和金融领域的应用。除了下面列出的发表论文（多篇Q1期刊），我还在新南威尔士大学担任研究助理，研究自然灾害保险和理赔可负担性。</h5>
 
 <br>
 
@@ -71,5 +70,6 @@ Cao, L., Sun, R., Ma, T. and Liu, C., 2023. On Asymmetric Correlations and Their
 <br>
 
 <h6>
-<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
+<center>*本站点最后更新时间为 `r format(Sys.time(), "%H:%M")`，更新日期为 `r format(Sys.Date(), "%Y年%m月%d日")`*</center>
+
 </h6>

@@ -1,6 +1,6 @@
 ---
-title: "**Gallery**"
-subtitle: "Some of my favourite projects & pieces of work"
+title: "**画廊**"
+subtitle: "我喜欢的一些项目和作品集"
 output:
   html_document:
     toc: true
@@ -9,7 +9,7 @@ output:
     theme: yeti
     css: styles.css
     include:
-      in_header: page-transition.js
+      in_header: scripts.js
 ---
 
 ```{css, echo=FALSE}
@@ -32,28 +32,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h5>These are related to different interests of mine. Peruse freely or use the table of contents to jump around.</h5>
+<h5>这些内容与我的不同兴趣相关。随意浏览或使用目录跳转到感兴趣的部分。</h5>
 
-
+<br>
 <br>
 <br>
 <br>
 <br>
-<br>
 
-# Data Science
-
-<br>
-
-<h5>This section has a focus on data visualisation and modelling.</h5>
+# 数据科学
 
 <br>
 
-[Most notably, I created and help teach a data science course for Masters students. Here are some data science projects I have turned into course materials and practical examples.](https://concptl.github.io/eda-examples/)
+<h5>这部分专注于数据可视化和建模。</h5>
 
 <br>
 
-This is a report I wrote on predicting house prices in Melbourne. See below for a summarised presentation!
+[最值得一提的是，我创建并协助教授了一门面向硕士生的数据科学课程。这里展示了我将一些数据科学项目转化为课程材料和实际示例。](https://concptl.github.io/eda-examples/)
+
+<br>
+
+这是我写的关于预测墨尔本房价的报告。请看下方的简要展示！
 
 <br>
 
@@ -68,9 +67,10 @@ This is a report I wrote on predicting house prices in Melbourne. See below for 
 
 <br>
 
-* This slideshow contains visualisations created using two datasets. The first is a Melbourne housing market dataset from  [kaggle](https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market). The second is [cash rate data from the RBA](https://www.rba.gov.au/statistics/cash-rate/). The rationale for using the cash rate data was to overlay the time series analysis of property sales. 
+<h5>* 这个幻灯片包含使用两个数据集创建的可视化。第一个数据集来自 <a href="https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market">kaggle</a>，是关于墨尔本房市的数据。第二个数据集是来自 <a href="https://www.rba.gov.au/statistics/cash-rate/">澳洲联邦储备银行的现金利率数据</a>。使用现金利率数据的原因是为了叠加在房地产销售的时间序列分析上。</h5>
 
-* Some of the interactive plots were creating using Tableau.
+<h5>* 些交互式图表是使用Tableau创建的。</h5>
+
 
 <br>
 
@@ -87,11 +87,11 @@ This is a report I wrote on predicting house prices in Melbourne. See below for 
 <br>
 <br>
 
-# Literature
+# 文学
 
 <br>
 
-<h5>Mostly a collection of short stories I wrote for fun.</h5>
+<h5>这是我出于兴趣写的一些短篇故事集。</h5>
 
 <br>
 
@@ -147,6 +147,6 @@ This is a report I wrote on predicting house prices in Melbourne. See below for 
 <br>
 
 <h6>
-<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
+<center>*本站点最后更新时间为 `r format(Sys.time(), "%H:%M")`，更新日期为 `r format(Sys.Date(), "%Y年%m月%d日")`*</center>
 </h6>
 

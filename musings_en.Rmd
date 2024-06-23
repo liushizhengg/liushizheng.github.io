@@ -9,7 +9,7 @@ output:
     theme: yeti
     css: styles.css  # Linking the CSS file
     include:
-      in_header: page-transition.js
+      in_header: scripts.js
 ---
 
 
@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-- [One thought](post_1.html)
+- [One thought](post_1_en.html)
 
 <br>
 <br>

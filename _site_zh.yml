@@ -1,0 +1,24 @@
+name: "docs"
+navbar:
+  title: "𓉞"
+  left:
+    - text: "画廊"
+      href: work_zh.html  # Replace with work_zh.html for Chinese version
+    - text: "学术"  # Replace with Chinese text for Academia
+      href: academia_zh.html  # Replace with academia_zh.html for Chinese version
+    - text: "随笔"  # Replace with Chinese text for Musings
+      href: musings_zh.html  # Replace with musings_zh.html for Chinese version
+  right:
+    - text: "English"
+      href: index_en.html
+      id: "lang-en"
+    - text: "中文"
+      href: index_zh.html
+      id: "lang-zh"
+output_dir: "docs"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: styles.css
+favicon: images/favicon.ico

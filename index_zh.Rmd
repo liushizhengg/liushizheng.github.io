@@ -1,0 +1,65 @@
+---
+title: ""
+subtitle: ""
+output:
+  html_document:
+    toc: false
+    toc_float: true
+    toc_depth: 2
+    theme: yeti
+    css: styles.css  # Linking the CSS file
+    includes:
+      in_header: scripts.js
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<br>
+<br>
+
+<h8>荀子曰《劝学》:</h8> 
+<br>
+<h5>
+译文因此，不登上高山，就不知天多么高；不面临深涧，就不知道地多么厚；不懂得先代帝王的遗教，就不知道学问的博大。</h5>
+
+<br>
+<br>
+
+<h1><strong>我的指南针：不断进步。</strong></h1>
+
+<br>
+
+<h5>事实不变；挑战促进成长（反脆弱性）；视角随新信息演变。因此：</h5>
+
+<br>
+
+<h3>我寻求并接受各种挑战，全面推动自己；我有坚定的信念，但寻求新视角和逻辑证据来迅速更新这些信念。</h3>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h6>
+<center>*本站点最后更新时间为 `r format(Sys.time(), "%H:%M")`，更新日期为 `r format(Sys.Date(), "%Y年%m月%d日")`*</center>
+</h6>

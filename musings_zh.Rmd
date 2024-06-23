@@ -1,0 +1,52 @@
+---
+title: "**思考**"
+subtitle: ""
+output:
+  html_document:
+    toc: false
+    toc_float: true
+    toc_depth: 2
+    theme: yeti
+    css: styles.css  # Linking the CSS file
+    include:
+      in_header: scripts.js
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+<h2>各种思考。</h2>
+
+<br>
+
+- [一个思考](post_1_zh.html)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h6>
+<center>*本站点最后更新时间为 `r format(Sys.time(), "%H:%M")`，更新日期为 `r format(Sys.Date(), "%Y年%m月%d日")`*</center>
+</h6>

@@ -9,7 +9,7 @@ output:
     theme: yeti
     css: styles.css  # Linking the CSS file
     include:
-      in_header: page-transition.js
+      in_header: scripts.js
 ---
 
 ```{r setup, include=FALSE}

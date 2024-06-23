@@ -1,0 +1,152 @@
+---
+title: "**Gallery**"
+subtitle: "Some of my favourite projects & pieces of work"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    theme: yeti
+    css: styles.css
+    include:
+      in_header: scripts.js
+---
+
+```{css, echo=FALSE}
+pre {
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+pre[class] {
+  max-height: 800px;
+}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- Add JavaScript for page transition -->
+<!-- Add JavaScript for page transition -->
+
+<br>
+
+<h5>These are related to different interests of mine. Peruse freely or use the table of contents to jump around.</h5>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Data Science
+
+<br>
+
+<h5>This section has a focus on data visualisation and modelling.</h5>
+
+<br>
+
+[Most notably, I created and help teach a data science course for Masters students. Here are some data science projects I have turned into course materials and practical examples.](https://concptl.github.io/eda-examples/)
+
+<br>
+
+This is a report I wrote on predicting house prices in Melbourne. See below for a summarised presentation!
+
+<br>
+
+<div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" target="_blank" rel="noopener"></a>
+
+<br>
+
+* This slideshow contains visualisations created using two datasets. The first is a Melbourne housing market dataset from  [kaggle](https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market). The second is [cash rate data from the RBA](https://www.rba.gov.au/statistics/cash-rate/). The rationale for using the cash rate data was to overlay the time series analysis of property sales. 
+
+* Some of the interactive plots were creating using Tableau.
+
+<br>
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?utm_content=DAFxgC0YEks&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a> 
+
+<br>
+<br>
+<br>
+
+# Literature
+
+<br>
+
+<h5>Mostly a collection of short stories I wrote for fun.</h5>
+
+<br>
+
+<div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" target="_blank" rel="noopener"></a>
+
+<br>
+
+<div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" target="_blank" rel="noopener"></a>
+
+
+
+
+
+
+
+
+
+</br>
+</br>
+</br>
+</br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h6>
+<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
+</h6>
+

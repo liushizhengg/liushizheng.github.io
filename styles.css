@@ -12,6 +12,8 @@ body {
     background-color: #fcfcfc; /* Same light grey as navigation bar */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Helvetica Neue font */
     font-weight: 300; /* Thin font weight */
+    opacity: 0; /* Initially hide body */
+    transition: opacity 0.8s ease; /* Smooth fade-in transition */
 }
 
 /* Apply Helvetica Neue font to specific elements */
@@ -42,6 +44,7 @@ a {
     color: #333333; /* Set the default link color to dark grey */
     position: relative; /* Needed for the hover effect */
     display: inline-block; /* Needed for the hover effect */
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 /* Hover effect for links */
@@ -66,4 +69,15 @@ a:hover::before {
 a:hover {
     color: #333333; /* Ensure text color is visible over the hover effect */
     text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Show body with fade-in effect on load */
+body.loaded {
+    opacity: 1;
+}
+
+/* Fade-out effect for body when leaving page */
+body.fading {
+    opacity: 0;
+    pointer-events: none; /* Disable pointer events during fade-out */
 }
