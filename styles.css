@@ -13,7 +13,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Helvetica Neue font */
     font-weight: 300; /* Thin font weight */
     opacity: 0; /* Initially hide body */
-    transition: opacity 0.8s ease; /* Smooth fade-in transition */
+    transition: opacity 1.8s ease; /* Smooth fade-in transition */
 }
 
 /* Apply Helvetica Neue font to specific elements */

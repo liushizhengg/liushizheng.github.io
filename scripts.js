@@ -54,7 +54,7 @@ $(document).ready(function() {
     // Navigate to new page after fade-out animation
     setTimeout(function() {
       window.location.href = href;
-    }, 888); // Adjust timing to match your animation duration
+    }, 1000); // Adjust timing to match your animation duration
   });
 });
 
