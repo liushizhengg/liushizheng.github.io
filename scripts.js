@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentPath = window.location.pathname;
 
     // If accessing the root URL, set default language-specific page
-    if (currentPath === '/' || currentPath === '/index.html') {
+    if (currentPath === '' || currentPath === '/index.html') {
       if (targetLang === 'zh') {
         currentPath = '/index_zh.html';
       } else {

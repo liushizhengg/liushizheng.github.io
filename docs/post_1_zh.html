@@ -51,7 +51,7 @@
     let currentPath = window.location.pathname;
 
     // If accessing the root URL, set default language-specific page
-    if (currentPath === '/' || currentPath === '/index.html') {
+    if (currentPath === '' || currentPath === '/index.html') {
       if (targetLang === 'zh') {
         currentPath = '/index_zh.html';
       } else {
@@ -390,7 +390,7 @@ $(document).ready(function () {
    <h6>
     <center>
      <em>
-      本站点的最后更新时间为 22:11 on 23 Jun 2024
+      本站点的最后更新时间为 22:15 on 23 Jun 2024
      </em>
     </center>
    </h6>
