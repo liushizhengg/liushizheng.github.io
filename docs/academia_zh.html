@@ -50,20 +50,21 @@
   function toggleLanguage(targetLang) {
     let currentPath = window.location.pathname;
 
-    // If accessing the root URL, set default language-specific page
-    if (currentPath === '' || currentPath === '/index.html') {
+    // Handle root URL case
+    if (currentPath === '/' || currentPath === '/index.html' || currentPath === '/index_en.html') {
       if (targetLang === 'zh') {
-        currentPath = '/index_zh.html';
+        window.location.href = '/index_zh.html';
       } else {
-        currentPath = '/index_en.html';
+        window.location.href = '/index_en.html';
       }
-    } else {
-      // Otherwise, handle switching between _en and _zh
-      if (targetLang === 'zh' && currentPath.includes('_en')) {
-        currentPath = currentPath.replace('_en', '_zh');
-      } else if (targetLang === 'en' && currentPath.includes('_zh')) {
-        currentPath = currentPath.replace('_zh', '_en');
-      }
+      return; // Exit function to prevent further execution
+    }
+
+    // Handle switching between _en and _zh
+    if (targetLang === 'zh' && currentPath.includes('_en')) {
+      currentPath = currentPath.replace('_en', '_zh');
+    } else if (targetLang === 'en' && currentPath.includes('_zh')) {
+      currentPath = currentPath.replace('_zh', '_en');
     }
 
     const newUrl = window.location.origin + currentPath;
@@ -406,7 +407,7 @@ Risk and Financial Management, 16(3), p.187.
    <h6>
     <center>
      <em>
-      本站点最后更新时间为 22:15，更新日期为 2024年06月23日
+      本站点最后更新时间为 22:33，更新日期为 2024年06月23日
      </em>
     </center>
    </h6>

@@ -13,20 +13,21 @@ document.addEventListener("DOMContentLoaded", function () {
   function toggleLanguage(targetLang) {
     let currentPath = window.location.pathname;
 
-    // If accessing the root URL, set default language-specific page
-    if (currentPath === '' || currentPath === '/index.html') {
+    // Handle root URL case
+    if (currentPath === '/' || currentPath === '/index.html' || currentPath === '/index_en.html') {
       if (targetLang === 'zh') {
-        currentPath = '/index_zh.html';
+        window.location.href = '/index_zh.html';
       } else {
-        currentPath = '/index_en.html';
+        window.location.href = '/index_en.html';
       }
-    } else {
-      // Otherwise, handle switching between _en and _zh
-      if (targetLang === 'zh' && currentPath.includes('_en')) {
-        currentPath = currentPath.replace('_en', '_zh');
-      } else if (targetLang === 'en' && currentPath.includes('_zh')) {
-        currentPath = currentPath.replace('_zh', '_en');
-      }
+      return; // Exit function to prevent further execution
+    }
+
+    // Handle switching between _en and _zh
+    if (targetLang === 'zh' && currentPath.includes('_en')) {
+      currentPath = currentPath.replace('_en', '_zh');
+    } else if (targetLang === 'en' && currentPath.includes('_zh')) {
+      currentPath = currentPath.replace('_zh', '_en');
     }
 
     const newUrl = window.location.origin + currentPath;
