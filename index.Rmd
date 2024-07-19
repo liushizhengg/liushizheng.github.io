@@ -51,13 +51,13 @@ knitr::opts_chunk$set(echo = TRUE)
 <h3>More recently, my primary experiences were in growth (3x’d MRR) at an early-stage startup and investing at OIF Ventures, a A$500m venture capital fund in Sydney.</h3>
 
 <br>
-<h5>I also studied abroad at the top university in South Korea, where I interned with a global venture capital company in Seoul, Antler Korea.</h5>
+<h5>I also studied abroad at the top university in South Korea, Seoul, where I interned with the global venture capital company Antler.</h5>
 
 <br>
-<h5>And I've worked in both public sector/private insurance, such as the largest general insurer in Australia.</h5>
+<h5>And I've worked! Building machine learning models in both public sector/private insurance, notably the largest general insurer in Australia.</h5>
 
 <br>
-<h5>... plus research in academia.</h5>
+<h5>... plus research in [academia](https://conan1iu.github.io/academia_en.html).</h5>
 
 
 
