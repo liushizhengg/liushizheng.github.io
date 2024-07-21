@@ -19,11 +19,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h2>Various musings.</h2>
+<h2>Loving memories.</h2>
 
 <br>
 
-- [One thought](post_1_en.html)
+- [One memory](post_1_en.html)
 
 <br>
 <br>

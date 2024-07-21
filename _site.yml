@@ -2,11 +2,11 @@ name: "docs"
 navbar:
   title: "𓉞"
   left:
-    - text: "Gallery"
+    - text: "Life Work"
       href: work_en.html  # Replace with work_zh.html for Chinese version
     - text: "Academia"
       href: academia_en.html  # Replace with academia_zh.html for Chinese version
-    - text: "Musings"
+    - text: "Loving Memories"
       href: musings_en.html  # Replace with musings_zh.html for Chinese version
   right:
     - text: "English"

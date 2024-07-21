@@ -19,45 +19,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h8>荀子曰《劝学》:</h8> 
+<h8>刘时正:</h8> 
 <br>
 <h5>
-译文因此，不登上高山，就不知天多么高；不面临深涧，就不知道地多么厚；不懂得先代帝王的遗教，就不知道学问的博大.</h5>
+父亲、慈爱的丈夫、学者、先驱。</h5>
 
 <br>
 
-<h1><strong>My north star: keep improving.</strong></h1>
+<h1><strong>A summary statement: summarises.</strong></h1>
 
 <br>
 
-<h5>Facts are constant; challenges drive growth (antifragility); perspectives evolve with new information. Therefore:</h5>
+<h5>Header sentence to highlight his strengths.</h5>
 
 <br>
 
-<h3>I seek and embrace challenges to push myself holistically; I have firm beliefs, but seek new perspectives and logical evidence to rapidly update these beliefs.</h3>
+<h3>Follow on sentence.</h3>
 
 <br>
-<h1><strong>How?</strong></h1>
-
-<br>
-
-<h5>Ran a business selling minecraft texture packs and creating YouTube banners for content creators when I was 10-14.</h5>
+<h1><strong>Key message here?</strong></h1>
 
 <br>
 
-<h5>Created a university data science course for Masters students when I was 16 - which I still help run today.</h5>
-
-<br>
-<h3>More recently, my primary experiences were in growth (3x’d MRR) at an early-stage [startup](https://www.nextchapter.to/) and investing at [OIF Ventures](https://www.oifventures.com.au/), a A$500m venture capital fund in Sydney.</h3>
-
-<br>
-<h5>I also studied abroad at the top university in South Korea, Seoul, where I interned with the global venture capital company [Antler](https://www.antler.co/location/korea).</h5>
-
-<br>
-<h5>And I've worked! Building machine learning models in both public sector/private insurance, notably the largest general insurer in Australia.</h5>
-
-<br>
-<h5>... plus research in [academia.](https://conan1iu.github.io/academia_en.html)</h5>
+<h5>Yes</h5>
 
 
 
@@ -78,7 +62,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 <br>
-<br>
+<br> 
 <br>
 <br>
 <br>

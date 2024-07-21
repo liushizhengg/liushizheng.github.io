@@ -1,26 +1,26 @@
 <!DOCTYPE html>
+
 <html>
- <head>
-  <meta charset="utf-8"/>
-  <meta content="pandoc" name="generator"/>
-  <meta content="IE=EDGE" http-equiv="X-UA-Compatible"/>
-  <title>
-   Gallery
-  </title>
-  <script src="site_libs/header-attrs-2.22/header-attrs.js">
-  </script>
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js">
-  </script>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet"/>
-  <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js">
-  </script>
-  <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js">
-  </script>
-  <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js">
-  </script>
-  <style>
-   h1 {font-size: 34px;}
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Gallery</title>
+
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
        h1.title {font-size: 38px;}
        h2 {font-size: 30px;}
        h3 {font-size: 24px;}
@@ -28,20 +28,15 @@
        h5 {font-size: 16px;}
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }
-  </style>
-  <script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js">
-  </script>
-  <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet"/>
-  <script src="site_libs/tocify-1.9.1/jquery.tocify.js">
-  </script>
-  <script src="site_libs/navigation-1.1/tabsets.js">
-  </script>
-  <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet"/>
-  <script src="site_libs/highlightjs-9.12.0/highlight.js">
-  </script>
-  <script>
-   document.addEventListener("DOMContentLoaded", function () {
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
   console.log("scripts.js loaded");
 
   let langEn = document.getElementById("lang-en");
@@ -99,30 +94,40 @@ $(document).ready(function() {
     }, 1000); // Adjust timing to match your animation duration
   });
 });
-  </script>
-  <style type="text/css">
-   code{white-space: pre-wrap;}
+
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
   span.smallcaps{font-variant: small-caps;}
   span.underline{text-decoration: underline;}
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-  </style>
-  <style type="text/css">
-   code{white-space: pre;}
-  </style>
-  <script type="text/javascript">
-   if (window.hljs) {
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
   hljs.configure({languages: []});
   hljs.initHighlightingOnLoad();
   if (document.readyState && document.readyState === "complete") {
     window.setTimeout(function() { hljs.initHighlighting(); }, 0);
   }
 }
-  </script>
-  <link href="styles.css" rel="stylesheet" type="text/css"/>
-  <style type="text/css">
-   .main-container {
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
@@ -148,9 +153,11 @@ details > summary > p:only-child {
 pre code {
   padding: 0;
 }
-  </style>
-  <style type="text/css">
-   .dropdown-submenu {
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
   position: relative;
 }
 .dropdown-submenu>.dropdown-menu {
@@ -187,9 +194,10 @@ pre code {
   margin-left: 10px;
   border-radius: 6px 0 6px 6px;
 }
-  </style>
-  <script type="text/javascript">
-   // manage active state of menu based on current page
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
   href = window.location.pathname
@@ -221,10 +229,12 @@ $(document).ready(function () {
   style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
   document.head.appendChild(style);
 });
-  </script>
-  <!-- tabsets -->
-  <style type="text/css">
-   .tabset-dropdown > .nav-tabs {
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
   display: inline-table;
   max-height: 500px;
   min-height: 44px;
@@ -268,10 +278,15 @@ $(document).ready(function () {
 .tabset-dropdown > .nav-tabs > li {
   display: none;
 }
-  </style>
-  <!-- code folding -->
-  <style type="text/css">
-   #TOC {
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
   margin: 25px 0px 20px 0px;
 }
 @media (max-width: 768px) {
@@ -327,81 +342,79 @@ div.tocify {
 .tocify .list-group-item {
   border-radius: 0px;
 }
-  </style>
- </head>
- <body>
-  <div class="container-fluid main-container">
-   <!-- setup 3col/9col grid for toc_float and main content  -->
-   <div class="row">
-    <div class="col-xs-12 col-sm-4 col-md-3">
-     <div class="tocify" id="TOC">
-     </div>
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">𓉞</a>
     </div>
-    <div class="toc-content col-xs-12 col-sm-8 col-md-9">
-     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-       <div class="navbar-header">
-        <button class="navbar-toggle collapsed" data-bs-target="#navbar" data-bs-toggle="collapse" data-target="#navbar" data-toggle="collapse" type="button">
-         <span class="icon-bar">
-         </span>
-         <span class="icon-bar">
-         </span>
-         <span class="icon-bar">
-         </span>
-        </button>
-        <a class="navbar-brand" href="index_en.html">
-         𓉞
-        </a>
-       </div>
-       <div class="navbar-collapse collapse" id="navbar">
-        <ul class="nav navbar-nav">
-         <li>
-          <a href="work_en.html">
-           Gallery
-          </a>
-         </li>
-         <li>
-          <a href="academia_en.html">
-           Academia
-          </a>
-         </li>
-         <li>
-          <a href="musings_en.html">
-           Musings
-          </a>
-         </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-         <li id="lang-en">
-          <a href="#">
-           English
-          </a>
-         </li>
-         <li id="lang-zh">
-          <a href="#">
-           中文
-          </a>
-         </li>
-        </ul>
-       </div>
-       <!--/.nav-collapse -->
-      </div>
-      <!--/.container -->
-     </div>
-     <!--/.navbar -->
-     <div id="header">
-      <h1 class="title toc-ignore">
-       <strong>
-        Gallery
-       </strong>
-      </h1>
-      <h3 class="subtitle">
-       Some of my favourite projects &amp; pieces of
-work
-      </h3>
-     </div>
-     <style type="text/css">
-      pre {
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="work_en.html">Life Work</a>
+</li>
+<li>
+  <a href="academia_en.html">Academia</a>
+</li>
+<li>
+  <a href="musings_en.html">Loving Memories</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="#">English</a>
+</li>
+<li>
+  <a href="#">中文</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore"><strong>Gallery</strong></h1>
+<h3 class="subtitle">Some of my favourite projects &amp; pieces of
+work</h3>
+
+</div>
+
+
+<style type="text/css">
+pre {
   max-height: 800px;
   overflow-y: auto;
 }
@@ -409,198 +422,121 @@ work
 pre[class] {
   max-height: 800px;
 }
-     </style>
-     <!-- Add JavaScript for page transition -->
-     <!-- Add JavaScript for page transition -->
-     <p>
-      <br/>
-     </p>
-     <h5>
-      These are related to different interests of mine. Peruse freely or use
-the table of contents to jump around.
-     </h5>
-     <p>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-     </p>
-     <div class="section level1" id="data-science">
-      <h1>
-       Data Science
-      </h1>
-      <p>
-       <br/>
-      </p>
-      <h5>
-       This section has a focus on data visualisation and modelling.
-      </h5>
-      <p>
-       <br/>
-      </p>
-      <p>
-       <a href="https://concptl.github.io/eda-examples/">
-        Most notably, I
+</style>
+<!-- Add JavaScript for page transition -->
+<!-- Add JavaScript for page transition -->
+<p><br></p>
+<h5>
+Key works page.
+</h5>
+<p><br> <br> <br> <br> <br></p>
+<div id="data-science" class="section level1">
+<h1>Data Science</h1>
+<p><br></p>
+<h5>
+This section has a focus on data visualisation and modelling.
+</h5>
+<p><br></p>
+<p><a href="https://concptl.github.io/eda-examples/">Most notably, I
 created and help teach a data science course for Masters students. Here
 are some data science projects I have turned into course materials and
-practical examples.
-       </a>
-      </p>
-      <p>
-       <br/>
-      </p>
-      <p>
-       This is a report I wrote on predicting house prices in Melbourne. See
-below for a summarised presentation!
-      </p>
-      <p>
-       <br/>
-      </p>
-      <div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+practical examples.</a></p>
+<p><br></p>
+<p>This is a report I wrote on predicting house prices in Melbourne. See
+below for a summarised presentation!</p>
+<p><br></p>
+<div
+style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
-       <p>
-        <iframe allow="fullscreen" allowfullscreen="allowfullscreen" loading="lazy" src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;">
-        </iframe>
-       </p>
-      </div>
-      <p>
-       <a href="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" rel="noopener" target="_blank">
-       </a>
-      </p>
-      <p>
-       <br/>
-      </p>
-      <ul>
-       <li>
-        <p>
-         This slideshow contains visualisations created using two
-datasets. The first is a Melbourne housing market dataset from
-         <a href="https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market">
-          kaggle
-         </a>
-         .
-The second is
-         <a href="https://www.rba.gov.au/statistics/cash-rate/">
-          cash rate data from
-the RBA
-         </a>
-         . The rationale for using the cash rate data was to overlay
-the time series analysis of property sales.
-        </p>
-       </li>
-       <li>
-        <p>
-         Some of the interactive plots were creating using
-Tableau.
-        </p>
-       </li>
-      </ul>
-      <p>
-       <br/>
-      </p>
-      <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" target="_blank" rel="noopener"></a></p>
+<p><br></p>
+<ul>
+<li><p>This slideshow contains visualisations created using two
+datasets. The first is a Melbourne housing market dataset from <a
+href="https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market">kaggle</a>.
+The second is <a
+href="https://www.rba.gov.au/statistics/cash-rate/">cash rate data from
+the RBA</a>. The rationale for using the cash rate data was to overlay
+the time series analysis of property sales.</p></li>
+<li><p>Some of the interactive plots were creating using
+Tableau.</p></li>
+</ul>
+<p><br></p>
+<div
+style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
-       <p>
-        <iframe allow="fullscreen" allowfullscreen="allowfullscreen" loading="lazy" src="https://www.canva.com/design/DAFxgC0YEks/view?embed" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;">
-        </iframe>
-       </p>
-      </div>
-      <p>
-       <a href="https://www.canva.com/design/DAFxgC0YEks/view?utm_content=DAFxgC0YEks&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" rel="noopener" target="_blank">
-       </a>
-      </p>
-      <p>
-       <br/>
-       <br/>
-       <br/>
-      </p>
-     </div>
-     <div class="section level1" id="literature">
-      <h1>
-       Literature
-      </h1>
-      <p>
-       <br/>
-      </p>
-      <h5>
-       Mostly a collection of short stories I wrote for fun.
-      </h5>
-      <p>
-       <br/>
-      </p>
-      <div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?utm_content=DAFxgC0YEks&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a></p>
+<p><br> <br> <br></p>
+</div>
+<div id="literature" class="section level1">
+<h1>Literature</h1>
+<p><br></p>
+<h5>
+Mostly a collection of short stories I wrote for fun.
+</h5>
+<p><br></p>
+<div
+style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
-       <p>
-        <iframe allow="fullscreen" allowfullscreen="allowfullscreen" loading="lazy" src="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;">
-        </iframe>
-       </p>
-      </div>
-      <p>
-       <a href="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" rel="noopener" target="_blank">
-       </a>
-      </p>
-      <p>
-       <br/>
-      </p>
-      <div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" target="_blank" rel="noopener"></a></p>
+<p><br></p>
+<div
+style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
-       <p>
-        <iframe allow="fullscreen" allowfullscreen="allowfullscreen" loading="lazy" src="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;">
-        </iframe>
-       </p>
-      </div>
-      <p>
-       <a href="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" rel="noopener" target="_blank">
-       </a>
-      </p>
-      <p>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-      </p>
-      <h6>
-       <center>
-        <em>
-         This site was last updated at 13:24 on 19 Jul 2024
-        </em>
-       </center>
-      </h6>
-     </div>
-    </div>
-   </div>
-  </div>
-  <script>
-   // add bootstrap table styles to pandoc tables
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+    src="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe></p>
+</div>
+<p><a href="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" target="_blank" rel="noopener"></a></p>
+<p></br> </br> </br> </br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br></p>
+<h6>
+<center>
+<em>This site was last updated at 12:46 on 21 Jul 2024</em>
+</center>
+</h6>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
   $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
-  </script>
-  <!-- tabsets -->
-  <script>
-   $(document).ready(function () {
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
   window.buildTabsets("TOC");
 });
 
@@ -609,10 +545,12 @@ $(document).ready(function () {
     $(this).parent().toggleClass('nav-tabs-open');
   });
 });
-  </script>
-  <!-- code folding -->
-  <script>
-   $(document).ready(function ()  {
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
 
     // temporarily add toc-ignore selector to headers for the consistency with Pandoc
     $('.unlisted.unnumbered').addClass('toc-ignore')
@@ -639,15 +577,17 @@ $(document).ready(function () {
     // tocify
     var toc = $("#TOC").tocify(options).data("toc-tocify");
 });
-  </script>
-  <!-- dynamically load mathjax for compatibility with self-contained -->
-  <script>
-   (function () {
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
     script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
-  </script>
- </body>
+</script>
+
+</body>
 </html>
