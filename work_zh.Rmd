@@ -1,6 +1,6 @@
 ---
 title: "**画廊**"
-subtitle: "我喜欢的一些项目和作品集"
+subtitle: "一次意义深远的展览，展示了他们一生的工作"
 output:
   html_document:
     toc: true
@@ -32,95 +32,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h5>这些内容与我的不同兴趣相关。随意浏览或使用目录跳转到感兴趣的部分。</h5>
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<h1>演示风格</h1>
 
-# 数据科学
+精品和定制的演示文稿可以在葬礼、演讲、其他活动中使用，也可以在这里永久庆祝。
 
-<br>
-
-<h5>这部分专注于数据可视化和建模。</h5>
-
-<br>
-
-[最值得一提的是，我创建并协助教授了一门面向硕士生的数据科学课程。这里展示了我将一些数据科学项目转化为课程材料和实际示例。](https://concptl.github.io/eda-examples/)
-
-<br>
-
-这是我写的关于预测墨尔本房价的报告。请看下方的简要展示！
-
-<br>
-
-<div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
-    src="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https://drive.google.com/file/d/1TMzfM_B8470IlZ6tHNOCPsiuF2CFVg8e/preview" target="_blank" rel="noopener"></a>
-
-<br>
-
-<h5>* 这个幻灯片包含使用两个数据集创建的可视化。第一个数据集来自 <a href="https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market">kaggle</a>，是关于墨尔本房市的数据。第二个数据集是来自 <a href="https://www.rba.gov.au/statistics/cash-rate/">澳洲联邦储备银行的现金利率数据</a>。使用现金利率数据的原因是为了叠加在房地产销售的时间序列分析上。</h5>
-
-<h5>* 些交互式图表是使用Tableau创建的。</h5>
-
-
-<br>
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
   <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+    src="https://www.canva.com/design/DAGYZClZRCY/llQXO8LEu669hQqrbcqs3A/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFxgC0YEks&#x2F;view?utm_content=DAFxgC0YEks&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a> 
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGYZClZRCY&#x2F;llQXO8LEu669hQqrbcqs3A&#x2F;view?utm_content=DAGYZClZRCY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a> 
 
-<br>
-<br>
-<br>
+<h1>其他可能性</h1>
 
-# 文学
-
-<br>
-
-<h5>这是我出于兴趣写的一些短篇故事集。</h5>
-
-<br>
-
-<div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
-    src="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https://drive.google.com/file/d/1YGfCXUJf35W4Zazq2WKSXT_o0JfNT5LT/preview" target="_blank" rel="noopener"></a>
-
-<br>
-
-<div style="position: relative; width: 100%; max-width: 600px; height: 0; padding-top: 88%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform; margin-left: auto; margin-right: auto;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
-    src="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https://drive.google.com/file/d/1U53DaRQTsMfUew8muTB3caN4SfE6qvA5/preview" target="_blank" rel="noopener"></a>
-
-
-
-
-
-
-
+涵盖了创作过程中的所有其他内容，从撰写讣告到根据您的愿望和需求进一步完善该网站。
 
 
 </br>

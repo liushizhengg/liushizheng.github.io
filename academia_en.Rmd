@@ -19,36 +19,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h5>My research interests relate to statistics, machine learning and AI in the fields of actuarial science and finance. Alongside the published papers below (several Q1), I have worked as a research assistant at UNSW, looking at natural perils insurance and claims affordability.</h5> 
+<h5>Academic pursuits can be highlighted here. For example:</h5> 
 
 <br>
 
-Huang, X., Ma, T., Liu, C. and Liu, S., 2023. GriT-DBSCAN: A spatial clustering algorithm for very large databases. Pattern Recognition, 142, p.109658.
+Citation 1
 
 <br>
 
-Ma, L., Liu, C., Ma, T. and Liu, S., 2023. PaVa: a novel Path-based Valley-seeking clustering algorithm. Information Sciences, Volume 665, 120380. 
+Citation 2
 
 <br>
 
-Liu, Y., Wang, J., Yao, Z., Liu, C. and Liu, S., 2022. Diagnostic analytics for a GARCH model under skew-normal distributions. Communications in Statistics-Simulation and Computation, pp.1-25.
-
-<br>
-
-Liu, Y., Lin, Y., Song, X., Liu, C. and Liu, S., 2023. Nonnegative group bridge and application in financial index tracking. Statistical Papers, pp.1-21.
-
-<br>
-
-Liu, H., Ma, T., Liu, C. and Liu, S., 2023. Causal Responsibility Division of Chronological Continuous Treatment Based on Change-Point Detection. Entropy, 25(8), p.1164.
-
-<br>
-
-Liu, S., Wang, H., Liu, Y. and Liu, C., 2024. Matrix derivatives and Kronecker products for the core and generalized. Journal of Mathematical Analysis and Applications, p.128128.
-
-<br>
-
-Cao, L., Sun, R., Ma, T. and Liu, C., 2023. On Asymmetric Correlations and Their Applications in Financial Markets. Journal of Risk and Financial Management, 16(3), p.187.
-
+Citation 3 and so on...
 
 <br>
 <br>

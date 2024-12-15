@@ -26,22 +26,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h1><strong>A summary statement: summarises.</strong></h1>
+<h1><strong>This is a highly flexible memorial (web)site.</strong></h1>
 
 <br>
 
-<h5>Header sentence to highlight his strengths.</h5>
+<h5>This is a deeply meaningful consultation to create something meaningful and lasting.</h5>
 
 <br>
-
-<h3>Follow on sentence.</h3>
-
 <br>
-<h1><strong>Key message here?</strong></h1>
+<h1><strong>Make remembering easy.</strong></h1>
 
+<h3>And celebrating easier.</h3>
 <br>
 
-<h5>Yes</h5>
+<h5>Contact me.</h5>
 
 
 

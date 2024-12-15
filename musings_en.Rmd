@@ -1,5 +1,5 @@
 ---
-title: "**Musings**"
+title: "**Loving memories**"
 subtitle: ""
 output:
   html_document:
@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-<h2>Loving memories.</h2>
+<h2>Remembering their grace.</h2>
 
 <br>
 

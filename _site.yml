@@ -1,6 +1,6 @@
 name: "docs"
 navbar:
-  title: "𓉞"
+  title: "🌳"
   left:
     - text: "Life Work"
       href: work_en.html  # Replace with work_zh.html for Chinese version
